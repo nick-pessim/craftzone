@@ -1,0 +1,11 @@
+###CONFIG
+git init                                                    > inicia pasta git
+git add file                                                > adiciona arquivo na pasta git
+git config --global user.name/user.email "username/email"   > loga user
+git remote add origin https://github.com/user/repo.git      > adiciona acesso remoto a pasta git
+git push                                                    > adiciona pasta e edições ao repo
+
+###STATUS
+git status  >   status do git
+git log     >   log de atualizações
+
