@@ -1,11 +1,19 @@
 ###CONFIG
 git init                                                    > inicia pasta git
-git add file                                                > adiciona arquivo na pasta git
+git add file/file1,file2,file3/.                            > adiciona arquivo na pasta git
+git commit *-m "message"*                                   > adiciona comentário ao novo commit
 git config --global user.name/user.email "username/email"   > loga user
 git remote add origin https://github.com/user/repo.git      > adiciona acesso remoto a pasta git
 git push                                                    > adiciona pasta e edições ao repo
+git clone                                                   > clona repositorio
+git pull                                                    > get commit
+git checkout [commit]                                       > atualiza sua versao a uma anterior
+git checkout -- [file/.]                                    > remove modificacoes
+git revert [commit]                                         > reverte alteracoes
+git reset [commit] *--hard*                                 > resetar repositorio para determinado commit
 
 ###STATUS
-git status  >   status do git
-git log     >   log de atualizações
-
+git status                                                  > status do git
+git log                                                     > log de atualizações
+git diff HEAD~1                                             > diferenças entre commit atual e anterior, HEAD~1 é um ponteiro do commit anterior
+    
